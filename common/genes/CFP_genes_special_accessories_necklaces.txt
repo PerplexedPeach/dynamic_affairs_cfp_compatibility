@@ -48,8 +48,6 @@
 				}
 				female = {
 					1 = female_accessories_cfp_byzantine_necklace_01
-					# LIDA added
-					1 = female_accessories_lida_dl_collar
 				}
 				boy = male
 				girl = female
@@ -115,6 +113,19 @@
 				girl = female
 			}
 			
+			# LIDA added
+			sub_collar = {
+				index = 9
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_lida_dl_collar
+				}
+				boy = male
+				girl = female
+			}
+
 		}
 		
 	}
