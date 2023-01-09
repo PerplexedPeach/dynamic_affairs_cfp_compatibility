@@ -113,7 +113,7 @@
 				girl = female
 			}
 			
-			# LIDA added
+## LIDA added
 			sub_collar = {
 				index = 9
 				male = {
