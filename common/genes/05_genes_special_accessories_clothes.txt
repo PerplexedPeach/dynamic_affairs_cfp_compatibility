@@ -1933,9 +1933,9 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-## LIDA added
+						## LIDA added
 			sub_harness = {
-				index = 96
+				index = 97
 				male = {
 					1 = empty
 				}
@@ -1944,7 +1944,8 @@ special_genes = {
 				}
 				boy = male
 				girl = female
-			}		
+			}
+		
 		}
 	}
 }
