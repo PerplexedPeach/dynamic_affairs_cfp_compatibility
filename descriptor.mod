@@ -1,7 +1,7 @@
-version="0.1.1"
+version="0.1.2"
 tags={
 	"Portraits"
 	"Graphics"
 }
 name="Dynamic Affairs CFP compatibility"
-supported_version="1.8.*"
+supported_version="1.9.*"
