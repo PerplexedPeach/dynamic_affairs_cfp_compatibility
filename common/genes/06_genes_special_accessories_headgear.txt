@@ -285,7 +285,7 @@ special_genes = {
 					8 = male_headgear_secular_western_cfp_high_nobility_01
 					8 = male_headgear_secular_western_high_nobility_04
 					8 = male_headgear_secular_slavic_high_nobility_01
-					1 = male_headgear_secular_western_pillbox_low_01
+					0 = male_headgear_secular_western_pillbox_low_01
 				}
 				female = {
 					10 = female_headgear_secular_western_high_nobility_01
@@ -2114,9 +2114,9 @@ special_genes = {
 					4 = female_headgear_secular_western_war_topf_01
 					1 = female_headgear_secular_western_war_sugarloaf_01
 					# era4
-					5 = male_headgear_secular_western_war_kettle_hat_01
-					5 = male_headgear_secular_western_war_kettle_hat_02
-					5 = male_headgear_secular_western_war_kettle_hat_03
+					5 = female_headgear_secular_western_war_kettle_hat_01
+					5 = female_headgear_secular_western_war_kettle_hat_02
+					5 = female_headgear_secular_western_war_kettle_hat_03
 				}
 				boy = male
 				girl = female
@@ -3207,7 +3207,6 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-			
 			# LIDA added
 			sub_collar = {
 				index = 200
@@ -3221,6 +3220,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+
 			
 		}
 		
@@ -3275,5 +3275,6 @@ special_genes = {
 			}
 		}
 
-}
+
+		}
 }

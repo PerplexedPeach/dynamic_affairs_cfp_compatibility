@@ -2206,7 +2206,7 @@ special_genes = {
 				boy = male
 				girl = female
 			}
-						## LIDA added
+			## LIDA added
 			sub_harness = {
 				index = 109
 				male = {
@@ -2218,6 +2218,18 @@ special_genes = {
 				boy = male
 				girl = female
 			}
+			skimpy_plate = {
+				index = 110
+				male = {
+					1 = empty
+				}
+				female = {
+					1 = female_accessories_lida_skimpy_plate
+				}
+				boy = male
+				girl = female
+			}
+		
 		}
 	}
 }

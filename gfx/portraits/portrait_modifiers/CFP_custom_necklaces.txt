@@ -46,10 +46,11 @@
 		gene = special_accessories_necklace
 		template = cfp_byzantine_high_nobility
 	}
-	
 	## LIDA added
 	add_accessory_modifiers = {
 		gene = special_accessories_necklace
 		template = sub_collar
 	}
+	
+	
 }

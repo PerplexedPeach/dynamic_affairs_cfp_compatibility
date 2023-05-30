@@ -116,7 +116,6 @@
 				boy = male
 				girl = female
 			}
-			
 			## LIDA added
 			sub_collar = {
 				index = 9
@@ -129,6 +128,9 @@
 				boy = male
 				girl = female
 			}
+
+			
 		}
+		
 	}
 }
