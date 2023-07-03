@@ -1420,7 +1420,7 @@ special_genes = {
 					10 = female_headgear_secular_fp1_war_nobility_02
 					10 = female_headgear_secular_northern_war_viking_02
 					10 = female_headgear_secular_northern_war_viking_04
-							
+					
 				}
 				boy = male
 				girl = female
@@ -1444,7 +1444,7 @@ special_genes = {
 					7 = female_headgear_secular_northern_war_nasal_02
 					5 = female_headgear_secular_western_war_mail_coif_01
 					5 = female_headgear_secular_western_war_padded_hood_01
-							
+
 				}
 				boy = male
 				girl = female
@@ -1679,12 +1679,14 @@ special_genes = {
 			fp2_christian_common = {
 				index = 92
 				male = {
-					10 = empty
-					20 = male_headgear_secular_fp2_iberian_christian_common_01
+					1 = empty
+					1 = male_headgear_secular_fp2_iberian_christian_common_01
+					1 = male_headgear_secular_iberian_cfp_bonnet_common_01
 				}
 				female = {
-					10 = empty
-					10 = female_headgear_secular_fp2_iberian_christian_common_01
+					2 = empty
+					1 = female_headgear_secular_fp2_iberian_christian_common_01
+					1 = female_headgear_secular_iberian_cfp_bonnet_common_01
 				}
 				boy = male
 				girl = female
@@ -1695,10 +1697,12 @@ special_genes = {
 				male = {
 					1 = male_headgear_secular_fp2_iberian_christian_nobility_01_low
 					1 = male_headgear_secular_fp2_iberian_christian_high_nobility_01_low
+					1 = male_headgear_secular_iberian_cfp_bonnet_low_01
 				}
 				female = {
 					1 = female_headgear_secular_fp2_iberian_christian_nobility_01_low
 					1 = female_headgear_secular_fp2_iberian_christian_high_nobility_01
+					1 = female_headgear_secular_iberian_cfp_bonnet_low_01
 				}
 				boy = male
 				girl = female
@@ -1710,10 +1714,12 @@ special_genes = {
 					
 					1 = male_headgear_secular_fp2_iberian_christian_nobility_01_high
 					1 = male_headgear_secular_fp2_iberian_christian_high_nobility_01_high
+					1 = male_headgear_secular_iberian_cfp_bonnet_high_01
 				}
 				female = {
 					1 = female_headgear_secular_fp2_iberian_christian_high_nobility_01
 					1 = female_headgear_secular_fp2_iberian_christian_nobility_01_high
+					1 = female_headgear_secular_iberian_cfp_bonnet_high_01
 				}
 				boy = male
 				girl = female
@@ -2195,10 +2201,9 @@ special_genes = {
 			cfp_western_war_high_nobility = {
 				index = 126
 				male = {
-					4 = male_headgear_secular_western_war_high_nobility_01
-					# HRE lock was not required anymore as DLC content in the models was replaced by CFP
+					1 = male_headgear_secular_western_war_high_nobility_01
 					1 = male_headgear_secular_dde_hre_war_high_nobility_01
-					2 = male_headgear_secular_dde_hre_war_high_nobility_02
+					1 = male_headgear_secular_dde_hre_war_high_nobility_02
 				}
 				female = {}
 				boy = male
@@ -2271,7 +2276,7 @@ special_genes = {
 					1 = female_headgear_secular_northern_war_viking_01
 					1 = female_headgear_secular_northern_war_viking_02
 					1 = female_headgear_secular_northern_war_viking_03
-					1 = female_headgear_secular_northern_war_viking_04	
+					1 = female_headgear_secular_northern_war_viking_04
 				}
 				boy = male
 				girl = female
@@ -3281,7 +3286,7 @@ special_genes = {
 			sub_collar = {
 				index = 203
 				male = {
-					1 = empty
+					1 = male_accessories_lida_sl_collar
 				}
 				female = {
 					# 1 = female_accessories_lida_dl_collar
@@ -3409,6 +3414,15 @@ special_genes = {
 					10 = female_headgear_secular_western_nobility_03
 					10 = female_headgear_secular_dde_hre_common_01
 					10 = female_headgear_secular_dde_hre_common_02
+				}
+				girl = female				
+			}
+
+			cfp_no_veil = {
+				index = 4
+				male = {}
+				female = {
+					1 = empty
 				}
 				girl = female				
 			}			
