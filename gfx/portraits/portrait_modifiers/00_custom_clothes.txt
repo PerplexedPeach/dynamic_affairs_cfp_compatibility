@@ -644,5 +644,9 @@
 		gene = clothes
 		template = asymmetric_dress
 	}
+	add_accessory_modifiers = {
+		gene = clothes
+		template = plunge_dress
+	}
 
 }
